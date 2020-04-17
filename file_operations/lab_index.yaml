@@ -6,15 +6,15 @@ details:
   steps:
   - title: Creating a file
     text: step1.md
-    code: create_file_test
+    code: step1.sh
   - title: Adding content to the file
     text: step2.md
-    code: file_string_test
+    code: step2.sh
   - title: Displaying content of a file
     text: step3.md
-    code: output_test
+    code: step3.sh
   intro:
     text: intro.md
-    code: init
+    code: minilab.sh
   finish:
     text: finish.md
