@@ -1,0 +1,20 @@
+---
+title: File Operations
+time: 10 minutes
+description: Learn how to create a file and display its content 
+details:
+  steps:
+  - title: Creating a file
+    text: step1.md
+    code: create_file_test
+  - title: Adding content to the file
+    text: step2.md
+    code: file_string_test
+  - title: Displaying content of a file
+    text: step3.md
+    code: output_test
+  intro:
+    text: intro.md
+    code: init
+  finish:
+    text: finish.md
