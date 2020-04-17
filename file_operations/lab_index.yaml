@@ -5,16 +5,15 @@ description: Learn how to create a file and display its content
 details:
   steps:
   - title: Creating a file
-    text: step1.md
+    text: step1.rst
     code: step1.sh
   - title: Adding content to the file
-    text: step2.md
+    text: step2.rst
     code: step2.sh
   - title: Displaying content of a file
-    text: step3.md
+    text: step3.rst
     code: step3.sh
   intro:
-    text: intro.md
-    code: minilab.sh
+    text: intro.rst
   finish:
-    text: finish.md
+    text: finish.rst
