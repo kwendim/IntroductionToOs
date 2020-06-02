@@ -4,7 +4,7 @@ import os
 class LabGrader():
     def __init__(self):
         self.workingDirectory = '/home/student'   #the directory in which the student is supposed to perform the lab
-        self.gradingScripts = {1: self.step1, 2: self.step2, 3: self.step3 }  #the grading script associated with each step
+        self.gradingScripts = {1: self.step1, 2: self.step2, 3: self.step3 }  #the grading function associated with each step
         self.numberOfTasks = 3 #total number of tasks
     
     "Must perorm check and return True or False"
