@@ -6,15 +6,14 @@ details:
   steps:
   - title: Creating a file
     text: step1.rst
-    code: step1.sh
   - title: Adding content to the file
     text: step2.rst
-    code: step2.sh
   - title: Displaying content of a file
     text: step3.rst
-    code: step3.sh
   intro:
     text: intro.rst
-    code: setup.sh
   finish:
     text: finish.rst
+grader: grader.py
+initializationScript: setup.sh
+
