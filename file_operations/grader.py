@@ -1,6 +1,7 @@
 #This is a template for the grader
 
 from onpit import Grader
+import os
 
 class LabGrader(Grader):
     @Grader.addStep(order='1')
