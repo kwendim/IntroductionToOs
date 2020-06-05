@@ -1,6 +1,6 @@
 #This is a template for the grader
 
-from grader import Grader
+from onpit import Grader
 import os
 
 class LabGrader(Grader):
