@@ -16,4 +16,4 @@ details:
   finish:
     text: finish.rst
 grader: grader.py
-initializationScript: setup.py
+# initializationScript: setup.py

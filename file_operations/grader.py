@@ -1,10 +1,10 @@
 #This is a template for the grader
 
-from onpit import Grader
+from grader import Grader
 import os
 
 class LabGrader(Grader):
-    @Grader.addStep(order='1')
+    @Grader.addStep(name='create')
     def step1(self, workingDir, inputCommand):
         filePath = os.path.join(workingDir, 'test.txt')
         if os.path.exists(filePath):
@@ -13,7 +13,7 @@ class LabGrader(Grader):
             return False
 
 
-    @Grader.addStep(order='2')
+    @Grader.addStep(name='addcontent')
     def step2(self, workingDir, inputCommand):
         filePath = os.path.join(workingDir, 'test.txt')
         if os.path.exists(os.path.join(workingDir, 'test.txt')):
@@ -23,7 +23,7 @@ class LabGrader(Grader):
                     return True
         return False
 
-    @Grader.addStep(order='3')
+    @Grader.addStep(name='displaycontent')
     def step3(self, workingDir, inputCommand):
         if inputCommand == "cat test.txt":
             return True
