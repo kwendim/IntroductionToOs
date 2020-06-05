@@ -4,14 +4,14 @@ details:
   intro:
     text: intro.rst
   steps:
-  - name: step1
-    title: Title for step 1
+  - name: create
+    title: Creating a file
     text: step1.rst
-  - name: step2
-    title: Title for step 2
+  - name: addcontent
+    title: Adding content to the file
     text: step2.rst
-  - name: step3
-    title: Title for step 3
+  - name: displaycontent
+    title: Displaying content of a file
     text: step3.rst
   finish:
     text: finish.rst
