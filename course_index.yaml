@@ -1,8 +1,11 @@
----
 title: Introduction to OS
 description: Learn the components of an OS
 labs:
-  - title: File Operations
-    description: Learn how to create a file, and display its contents
-    directory: /file_operations
-    number_of_tasks: 3
+- title: Basic Operations
+  description: Learn basic linux commands
+  directory: /basicOperations
+  number_of_tasks: 3
+- title: File Operations
+  description: Learn how to create a file, and display its contents
+  directory: /file_operations
+  number_of_tasks: 3
