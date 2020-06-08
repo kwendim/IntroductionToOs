@@ -10,6 +10,7 @@ In this final step, we will learn how to copy files between folders.
 ``cp firstLab/file2.txt backup/file0.txt``
 
 4. You can list the files in the backup folder to check if the files have been copied successfully
+
 ``ls backup``
 
 5. That completes our first lab session
