@@ -1,6 +1,7 @@
 Welcome to your new environment. Let's take a look around.
 
-1. You see your current working directory with the print working directory command 
+1. You see your current working directory with the print working directory command
+
 ``pwd``\ {{execute}}
 
 2. You should currently be in the home directory of your user. If not, let's switch to our project directory using the cd command 
